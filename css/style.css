@@ -1,0 +1,81 @@
+:root {
+  --background-color-main: #111225;
+  --color-text: #fff;
+  --font-main: Arial, sans-serif;
+  --border-color: #ccc;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color-main);
+  color: var(--color-text);
+  font-family: var(--font-main);
+}
+
+#slot-machine {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.reel {
+  width: 100px;
+  height: 160px;
+  margin: 0 10px;
+  background-color: var(--color-text);
+  border: 2px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  text-align: center;
+}
+
+.symbol-img {
+  width: 120px;
+  height: 120px;
+}
+
+#spin-button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #ff9ce5, #f1ff85);
+  color: #000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* 影を追加 */
+  transition: transform 0.2s, box-shadow 0.2s; /* アニメーション効果 */
+}
+
+#spin-button:hover {
+  transform: translateY(-2px); /* ホバー時にボタンを少し上に移動 */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 8px 24px rgba(0, 0, 0, 0.2); /* ホバー時の影を強調 */
+}
+
+#spin-button:active {
+  transform: translateY(1px); /* クリック時にボタンを少し下に押し込む効果 */
+  background-image: linear-gradient(
+    to right,
+    #2575fc,
+    #6a11cb
+  ); /* クリック時の背景色変更 */
+}
+
+#check-all-button,
+#uncheck-all-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #fff59c;
+  color: var(--background-color-main);
+}
+
+#uncheck-all-button {
+  background-color: #ffaaa3;
+}

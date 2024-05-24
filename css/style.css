@@ -66,7 +66,8 @@ body {
 }
 
 #check-all-button,
-#uncheck-all-button {
+#uncheck-all-button,
+#remember-button {
   padding: 10px 20px;
   font-size: 1em;
   cursor: pointer;
@@ -78,4 +79,8 @@ body {
 
 #uncheck-all-button {
   background-color: #ffaaa3;
+}
+
+#remember-button {
+  background-color: #75e6ff;
 }

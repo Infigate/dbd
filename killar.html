@@ -498,7 +498,9 @@
               textWithKana += " (" + symbol.kana + ")";
             }
 
-            selectedSymbolsText.push(textWithKana + " <br>");
+            selectedSymbolsText.push(
+              textWithKana + ": <br>" + symbol.explain + "<br>"
+            );
           }
 
           const symbolTextElement = document.getElementById(

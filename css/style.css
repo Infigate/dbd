@@ -14,6 +14,10 @@ body {
   font-family: var(--font-main);
 }
 
+.killar {
+  background-color: #62242b;
+}
+
 #slot-machine {
   display: flex;
   margin-bottom: 20px;
@@ -67,7 +71,10 @@ body {
 
 #check-all-button,
 #uncheck-all-button,
-#remember-button {
+#remember-button,
+#tab-button,
+.check-all-button,
+.tab-button {
   padding: 10px 20px;
   font-size: 1em;
   cursor: pointer;
@@ -77,10 +84,16 @@ body {
   color: var(--background-color-main);
 }
 
-#uncheck-all-button {
+#uncheck-all-button,
+.uncheck-all-button {
   background-color: #ffaaa3;
 }
 
 #remember-button {
   background-color: #75e6ff;
+}
+
+#tab-button,
+.tab-button {
+  background-color: #eee;
 }

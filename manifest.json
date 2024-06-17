@@ -2,7 +2,7 @@
   "name": "Random Park Challenge",
   "short_name": "RPC",
   "description": "",
-  "start_url": "/",
+  "start_url": "/dbd/",
   "display": "standalone",
   "icons": [
     {

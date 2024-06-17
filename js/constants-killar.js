@@ -654,4 +654,22 @@ const symbols = [
     group: "marchan",
     user: "マーチャント",
   },
+  {
+    img: "./img/killar/jintai.webp",
+    text: "人体の超越",
+    group: "buy",
+    user: "購入パーク",
+  },
+  {
+    img: "./img/killar/titaku.webp",
+    text: "知覚覚醒",
+    group: "buy",
+    user: "購入パーク",
+  },
+  {
+    img: "./img/killar/syumatu.webp",
+    text: "終末期",
+    group: "buy",
+    user: "購入パーク",
+  },
 ];

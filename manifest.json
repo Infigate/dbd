@@ -1,0 +1,7 @@
+{
+  "name": "Randam Park Challenge",
+  "short_name": "RPC",
+  "description": "",
+  "start_url": "/index.html",
+  "display": "standalone"
+}

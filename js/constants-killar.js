@@ -4,126 +4,147 @@ const symbols = [
     text: "ずさんな肉屋",
     group: "common",
     user: "共通パーク",
+    kana: "",
   },
   {
     img: "./img/killar/irapu.webp",
     text: "イラプション",
     group: "common",
     user: "共通パーク",
+    kana: "",
   },
   {
     img: "./img/killar/mind.webp",
-    text: "マイブレ",
+    text: "不安を煽るもの",
     group: "common",
     user: "共通パーク",
+    kana: "マイブレ",
   },
   {
     img: "./img/killar/kariko.webp",
     text: "狩りの興奮",
     group: "common",
     user: "共通パーク",
+    kana: "かりこ",
   },
   {
     img: "./img/killar/noone.webp",
-    text: "ノーワン",
+    text: "誰も死から逃れられない",
     group: "common",
     user: "共通パーク",
+    kana: "ノーワン",
   },
   {
     img: "./img/killar/sasayaki.webp",
     text: "囁き",
     group: "common",
     user: "共通パーク",
+    kana: "ささやき",
   },
   {
     img: "./img/killar/mittei.webp",
     text: "影の密偵",
     group: "common",
     user: "共通パーク",
+    kana: "かげのみってい",
   },
   {
     img: "./img/killar/sinobi.webp",
     text: "忍び寄る者",
     group: "common",
     user: "共通パーク",
+    kana: "",
   },
   {
     img: "./img/killar/murumuru.webp",
     text: "憎悪の囁き",
     group: "common",
     user: "共通パーク",
+    kana: "ぞうおのささやき",
   },
   {
     img: "./img/killar/utikibo.webp",
     text: "打ち砕かれた希望",
     group: "common",
     user: "共通パーク",
+    kana: "",
   },
   {
     img: "./img/killar/sa-ji.webp",
     text: "景気付け",
     group: "common",
     user: "共通パーク",
+    kana: "",
   },
   {
     img: "./img/killar/tuiseki.webp",
     text: "死を呼ぶ追跡者",
     group: "common",
     user: "共通パーク",
+    kana: "",
   },
   {
     img: "./img/killar/mujihi.webp",
     text: "無慈悲",
     group: "common",
     user: "共通パーク",
+    kana: "",
   },
   {
     img: "./img/killar/kokatu.webp",
     text: "狡猾",
     group: "common",
     user: "共通パーク",
+    kana: "",
   },
   {
     img: "./img/killar/saidan.webp",
     text: "異形の祭壇",
     group: "common",
     user: "共通パーク",
+    kana: "",
   },
   {
     img: "./img/killar/tetuwan.webp",
     text: "鋼の握力",
     group: "common",
     user: "共通パーク",
+    kana: "",
   },
   {
     img: "./img/killar/heisyo.webp",
     text: "閉所恐怖症",
     group: "common",
     user: "共通パーク",
+    kana: "",
   },
   {
     img: "./img/killar/his.webp",
     text: "集団ヒステリー",
     group: "common",
     user: "共通パーク",
+    kana: "",
   },
   {
     img: "./img/killar/mayakasi.webp",
     text: "まやかし",
     group: "crown",
     user: "クラウン",
+    kana: "",
   },
   {
     img: "./img/killar/piero.webp",
     text: "ピエロ恐怖症",
     group: "crown",
     user: "クラウン",
+    kana: "",
   },
   {
     img: "./img/killar/itati.webp",
     text: "イタチが飛び出した",
     group: "crown",
     user: "クラウン",
+    kana: "",
   },
 
   {
@@ -131,18 +152,21 @@ const symbols = [
     text: "スターに憧れて",
     group: "trickstar",
     user: "トリックスター",
+    kana: "",
   },
   {
     img: "./img/killar/crowd.webp",
     text: "クラウドコントロール",
     group: "trickstar",
     user: "トリックスター",
+    kana: "",
   },
   {
     img: "./img/killar/hukuro.webp",
     text: "袋小路",
     group: "trickstar",
     user: "トリックスター",
+    kana: "",
   },
 
   {
@@ -150,18 +174,21 @@ const symbols = [
     text: "デッドロック",
     group: "senoba",
     user: "セノバイト",
+    kana: "",
   },
   {
     img: "./img/killar/gangu.webp",
     text: "玩具",
     group: "senoba",
     user: "セノバイト",
+    kana: "がんぐ",
   },
   {
     img: "./img/killar/kutuuto.webp",
     text: "苦痛という名の賜り物",
     group: "senoba",
     user: "セノバイト",
+    kana: "くつうというなのたまわりもの",
   },
 
   {
@@ -169,18 +196,21 @@ const symbols = [
     text: "ノックアウト",
     group: "canival",
     user: "カニバル",
+    kana: "",
   },
   {
     img: "./img/killar/babetiri.webp",
     text: "バベチリ",
     group: "canival",
     user: "カニバル",
+    kana: "",
   },
   {
     img: "./img/killar/furan.webp",
     text: "フランクリンの悲劇",
     group: "canival",
     user: "カニバル",
+    kana: "",
   },
 
   {
@@ -188,18 +218,21 @@ const symbols = [
     text: "ファイヤーアップ",
     group: "nightmare",
     user: "ナイトメア",
+    kana: "",
   },
   {
     img: "./img/killar/remember.webp",
     text: "リメンバーミー",
     group: "nightmare",
     user: "ナイトメア",
+    kana: "",
   },
   {
     img: "./img/killar/woden.webp",
     text: "血の番人",
     group: "nightmare",
     user: "ナイトメア",
+    kana: "",
   },
 
   {
@@ -207,18 +240,21 @@ const symbols = [
     text: "不協和音",
     group: "resion",
     user: "リージョン",
+    kana: "",
   },
   {
     img: "./img/killar/kyoki.webp",
     text: "狂気の根性",
     group: "resion",
     user: "リージョン",
+    kana: "",
   },
   {
     img: "./img/killar/meiden.webp",
     text: "アイアンメイデン",
     group: "resion",
     user: "リージョン",
+    kana: "",
   },
 
   {
@@ -226,18 +262,21 @@ const symbols = [
     text: "不吉な包囲",
     group: "artist",
     user: "アーティスト",
+    kana: "",
   },
   {
     img: "./img/killar/kyomei.webp",
     text: "共鳴する苦痛",
     group: "artist",
     user: "アーティスト",
+    kana: "",
   },
   {
     img: "./img/killar/penti.webp",
     text: "ペンティメント",
     group: "artist",
     user: "アーティスト",
+    kana: "",
   },
 
   {
@@ -245,18 +284,21 @@ const symbols = [
     text: "不安の元凶",
     group: "trapper",
     user: "トラッパー",
+    kana: "",
   },
   {
     img: "./img/killar/yaban.webp",
     text: "野蛮な力",
     group: "trapper",
     user: "トラッパー",
+    kana: "",
   },
   {
     img: "./img/killar/ajite.webp",
     text: "興奮",
     group: "trapper",
     user: "トラッパー",
+    kana: "",
   },
 
   {
@@ -264,18 +306,21 @@ const symbols = [
     text: "不屈",
     group: "billy",
     user: "ヒルビリー",
+    kana: "",
   },
   {
     img: "./img/killar/lightborn.webp",
     text: "光より出でし者",
     group: "billy",
     user: "ヒルビリー",
+    kana: "",
   },
   {
     img: "./img/killar/garakuta.webp",
     text: "ガラクタいじり",
     group: "billy",
     user: "ヒルビリー",
+    kana: "",
   },
 
   {
@@ -283,18 +328,21 @@ const symbols = [
     text: "処刑人の妙技",
     group: "pig",
     user: "ピッグ",
+    kana: "しょけいにんのみょうぎ",
   },
   {
     img: "./img/killar/kansi.webp",
     text: "監視",
     group: "pig",
     user: "ピッグ",
+    kana: "",
   },
   {
     img: "./img/killar/tenbin.webp",
     text: "選択は君次第だ",
     group: "pig",
     user: "ピッグ",
+    kana: "天秤",
   },
 
   {
@@ -302,17 +350,20 @@ const symbols = [
     text: "第三の封印",
     group: "hug",
     user: "ハグ",
+    kana: "",
   },
   {
     img: "./img/killar/hametu.webp",
     text: "破滅",
     group: "hug",
     user: "ハグ",
+    kana: "",
   },
   {
     img: "./img/killar/deboa.webp",
     group: "貪られる希望",
     user: "ハグ",
+    kana: "デボア",
   },
 
   {
@@ -320,18 +371,21 @@ const symbols = [
     text: "喘鳴",
     group: "nurse",
     user: "ナース",
+    kana: "ぜんめい",
   },
   {
     img: "./img/killar/tanato.webp",
     text: "死恐怖症",
     group: "nurse",
     user: "ナース",
+    kana: "タナト",
   },
   {
     img: "./img/killar/nasuko.webp",
     text: "看護師の使命",
     group: "nurse",
     user: "ナース",
+    kana: "",
   },
 
   {
@@ -339,18 +393,21 @@ const symbols = [
     text: "圧倒的存在感",
     group: "doctor",
     user: "ドクター",
+    kana: "",
   },
   {
     img: "./img/killar/kansatu.webp",
     text: "観察＆虐待",
     group: "doctor",
     user: "ドクター",
+    kana: "",
   },
   {
     img: "./img/killar/obatya.webp",
     text: "オーバーチャージ",
     group: "doctor",
     user: "ドクター",
+    kana: "",
   },
 
   {
@@ -358,18 +415,21 @@ const symbols = [
     text: "地獄耳",
     group: "gost",
     user: "ゴーストフェイス",
+    kana: "",
   },
   {
     img: "./img/killar/senritu.webp",
     text: "戦慄",
     group: "gost",
     user: "ゴーストフェイス",
+    kana: "せんりつ",
   },
   {
     img: "./img/killar/onmitu.webp",
     text: "隠密の追跡",
     group: "gost",
     user: "ゴーストフェイス",
+    kana: "おんみつのついせき",
   },
 
   {
@@ -377,18 +437,21 @@ const symbols = [
     text: "堕落の介入",
     group: "prage",
     user: "プレイグ",
+    kana: "",
   },
   {
     img: "./img/killar/ojike.webp",
     text: "伝播する怖気",
     group: "prage",
     user: "プレイグ",
+    kana: "",
   },
   {
     img: "./img/killar/yamino.webp",
     text: "闇の信仰心",
     group: "prage",
     user: "プレイグ",
+    kana: "",
   },
 
   {
@@ -396,18 +459,21 @@ const symbols = [
     text: "変速機",
     group: "death",
     user: "デススリンガー",
+    kana: "",
   },
   {
     img: "./img/killar/sibito.webp",
     text: "死人のスイッチ",
     group: "death",
     user: "デススリンガー",
+    kana: "",
   },
   {
     img: "./img/killar/hohuku.webp",
     text: "報復",
     group: "death",
     user: "デススリンガー",
+    kana: "",
   },
 
   {
@@ -415,18 +481,21 @@ const symbols = [
     text: "怨霊の怒り",
     group: "spilit",
     user: "スピリット",
+    kana: "おんりょうのいかり",
   },
   {
     img: "./img/killar/reisyo.webp",
     text: "霊障の地",
     group: "spilit",
     user: "スピリット",
+    kana: "れいしょうのち",
   },
   {
     img: "./img/killar/enkon.webp",
     text: "怨恨",
     group: "spilit",
     user: "スピリット",
+    kana: "えんこん",
   },
 
   {
@@ -434,18 +503,21 @@ const symbols = [
     text: "氾濫する憤怒",
     group: "sadako",
     user: "貞子",
+    kana: "はんらんするふんぬ{ふんど}",
   },
   {
     img: "./img/killar/umi.webp",
     text: "海の叫び声",
     group: "sadako",
     user: "貞子",
+    kana: "",
   },
   {
     img: "./img/killar/dotou.webp",
     text: "怒涛の嵐",
     group: "sadako",
     user: "貞子",
+    kana: "どとうのあらし",
   },
 
   {
@@ -453,18 +525,21 @@ const symbols = [
     text: "捕食者",
     group: "wraith",
     user: "レイス",
+    kana: "",
   },
   {
     img: "./img/killar/tuisekisya.webp",
     text: "血の追跡者",
     group: "wraith",
     user: "レイス",
+    kana: "",
   },
   {
     img: "./img/killar/syadobo.webp",
     text: "闇より出でし者",
     group: "wraith",
     user: "レイス",
+    kana: "",
   },
 
   {
@@ -472,18 +547,21 @@ const symbols = [
     text: "最後のお楽しみ",
     group: "shape",
     user: "シェイプ",
+    kana: "",
   },
   {
     img: "./img/killar/kumo.webp",
     text: "弄ばれる獲物",
     group: "shape",
     user: "シェイプ",
+    kana: "くも",
   },
   {
     img: "./img/killar/dairai.webp",
     text: "消えゆく灯",
     group: "shape",
     user: "シェイプ",
+    kana: "",
   },
 
   {
@@ -491,18 +569,21 @@ const symbols = [
     text: "残心の戦術",
     group: "oni",
     user: "鬼",
+    kana: "ざんしんのせんじゅつ",
   },
   {
     img: "./img/killar/tinokyoumei.webp",
     text: "血の共鳴",
     group: "oni",
     user: "鬼",
+    kana: "",
   },
   {
     img: "./img/killar/tentyu.webp",
     text: "天誅",
     group: "oni",
     user: "鬼",
+    kana: "てんちゅう",
   },
 
   {
@@ -510,18 +591,21 @@ const symbols = [
     text: "溜め込み屋",
     group: "twins",
     user: "ツインズ",
+    kana: "",
   },
   {
     img: "./img/killar/hakugai.webp",
     text: "迫害",
     group: "twins",
     user: "ツインズ",
+    kana: "はくがい",
   },
   {
     img: "./img/killar/todome.webp",
     text: "とどめの一撃",
     group: "twins",
     user: "ツインズ",
+    kana: "",
   },
 
   {
@@ -529,54 +613,63 @@ const symbols = [
     text: "猛獣",
     group: "hunt",
     user: "ハントレス",
+    kana: "",
   },
   {
     img: "./img/killar/nawabari.webp",
     text: "縄張り意識",
     group: "hunt",
     user: "ハントレス",
+    kana: "",
   },
   {
     img: "./img/killar/rarabai.webp",
     text: "女狩人の子守歌",
     group: "hunt",
     user: "ハントレス",
+    kana: "ララバイ",
   },
   {
     img: "./img/killar/identeki.webp",
     text: "遺伝的限界",
     group: "singura",
     user: "シンギュラリティ",
+    kana: "",
   },
   {
     img: "./img/killar/kyousei.webp",
     text: "躊躇の強制",
     group: "singura",
     user: "シンギュラリティ",
+    kana: "ちゅうちょのきょうせい",
   },
   {
     img: "./img/killar/kikai.webp",
     text: "機械学習",
     group: "singura",
     user: "シンギュラリティ",
+    kana: "",
   },
   {
     img: "./img/killar/hutari.webp",
     text: "二人遊び",
     group: "chacky",
     user: "チャッキー",
+    kana: "",
   },
   {
     img: "./img/killar/sinumade.webp",
     text: "死ぬまで親友",
     group: "chacky",
     user: "チャッキー",
+    kana: "",
   },
   {
     img: "./img/killar/denti.webp",
     text: "電池付き",
     group: "chacky",
     user: "チャッキー",
+    kana: "",
   },
 
   {
@@ -584,18 +677,21 @@ const symbols = [
     text: "ドラゴンの掌握",
     group: "bright",
     user: "ブライト",
+    kana: "どらごんのしょうあく",
   },
   {
     img: "./img/killar/onkei.webp",
     text: "血の恩恵",
     group: "bright",
     user: "ブライト",
+    kana: "",
   },
   {
     img: "./img/killar/husi.webp",
     text: "不死",
     group: "bright",
     user: "ブライト",
+    kana: "",
   },
 
   {
@@ -603,18 +699,21 @@ const symbols = [
     text: "解体",
     group: "dredge",
     user: "ドレッジ",
+    kana: "",
   },
   {
     img: "./img/killar/roken.webp",
     text: "露見する闇",
     group: "dredge",
     user: "ドレッジ",
+    kana: "ろけんするやみ",
   },
   {
     img: "./img/killar/huhai.webp",
     text: "腐敗の気配",
     group: "dredge",
     user: "ドレッジ",
+    kana: "",
   },
 
   {
@@ -622,18 +721,21 @@ const symbols = [
     text: "隠れ場なし",
     group: "night",
     user: "ナイト",
+    kana: "",
   },
   {
     img: "./img/killar/hubu.webp",
     text: "ヒュブリス",
     group: "night",
     user: "ナイト",
+    kana: "",
   },
   {
     img: "./img/killar/yamitai.webp",
     text: "闇との対面",
     group: "night",
     user: "ナイト",
+    kana: "",
   },
 
   {
@@ -641,35 +743,41 @@ const symbols = [
     text: "執拗な狩り",
     group: "marchan",
     user: "マーチャント",
+    kana: "しつようなかり",
   },
   {
     img: "./img/killar/basi.webp",
     text: "バシッ！",
     group: "marchan",
     user: "マーチャント",
+    kana: "",
   },
   {
     img: "./img/killar/honenuki.webp",
     text: "骨抜きの作用",
     group: "marchan",
     user: "マーチャント",
+    kana: "",
   },
   {
     img: "./img/killar/jintai.webp",
     text: "人体の超越",
     group: "buy",
     user: "購入パーク",
+    kana: "",
   },
   {
     img: "./img/killar/titaku.webp",
     text: "知覚覚醒",
     group: "buy",
     user: "購入パーク",
+    kana: "",
   },
   {
     img: "./img/killar/syumatu.webp",
     text: "終末期",
     group: "buy",
     user: "購入パーク",
+    kana: "",
   },
 ];

@@ -52,6 +52,12 @@
         </div>
       </div>
       <hr />
+      <div class="row align-items-center text-start">
+        <div class="col-12">
+          <p id="symbol-text-display" class="mb-4"></p>
+        </div>
+      </div>
+      <hr />
       <div class="row align-items-center text-center">
         <div class="col-12 mb-0 mt-5">
           <h5>チェックを外すと該当キャラのパークがルーレットから外れます</h5>
@@ -469,6 +475,7 @@
           let showAlert = false;
 
           const usedSymbols = [];
+          const selectedSymbolsText = [];
           for (const reel of reels) {
             const symbolsForReel = availableSymbols.filter(
               (symbol) =>
@@ -485,6 +492,20 @@
 
             const symbol = await spinReel(reel, symbolsForReel);
             usedSymbols.push(symbol);
+
+            let textWithKana = symbol.text;
+            if (symbol.kana) {
+              textWithKana += " (" + symbol.kana + ")";
+            }
+
+            selectedSymbolsText.push(textWithKana + " <br>");
+          }
+
+          const symbolTextElement = document.getElementById(
+            "symbol-text-display"
+          );
+          if (symbolTextElement) {
+            symbolTextElement.innerHTML = selectedSymbolsText.join("<br>");
           }
 
           document.getElementById("spin-button").disabled = false;

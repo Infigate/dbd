@@ -586,7 +586,10 @@
       // PWAがホーム画面から起動された場合
       if (window.matchMedia("(display-mode: standalone)").matches) {
         window.addEventListener("load", () => {
-          window.location.reload();
+          if (!sessionStorage.getItem("reloaded")) {
+            sessionStorage.setItem("reloaded", "true");
+            window.location.reload();
+          }
         });
       }
     </script>

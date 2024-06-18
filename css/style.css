@@ -1,5 +1,5 @@
 :root {
-  --background-color-main: #696b92;
+  --background-color-main: #7d97ad;
   --color-text: #fff;
   --font-main: Arial, sans-serif;
   --border-color: #ccc;
@@ -15,7 +15,7 @@ body {
 }
 
 .killar {
-  background-color: #793c6b;
+  background-color: #cfb2c8;
 }
 
 #slot-machine {

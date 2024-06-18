@@ -453,12 +453,12 @@
             reel.querySelector(".symbol-img").src = symbol.img;
             reel.querySelector(".symbol-text").textContent = symbol.text;
             reel.querySelector(".user").textContent = symbol.user;
-            if (count > 20) {
+            if (count > 30) {
               clearInterval(interval);
               resolve(symbol);
             }
             count++;
-          }, 10);
+          }, 20);
         });
       };
 

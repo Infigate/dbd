@@ -476,7 +476,7 @@
         .addEventListener("click", async () => {
           document.getElementById("spin-button").disabled = true;
 
-          if ("vibrate" in nabigator) {
+          if ("vibrate" in navigator) {
             navigator.vibrate(200);
           }
 

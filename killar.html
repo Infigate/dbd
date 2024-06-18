@@ -476,10 +476,6 @@
         .addEventListener("click", async () => {
           document.getElementById("spin-button").disabled = true;
 
-          if ("vibrate" in navigator) {
-            navigator.vibrate(200);
-          }
-
           const checkedGroups = Array.from(
             document.querySelectorAll(".symbol-group:checked")
           ).map((el) => el.value);
